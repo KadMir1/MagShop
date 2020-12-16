@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1025645263211",
+    "firebase_url": "https://magshop-6b66d.firebaseio.com",
+    "project_id": "magshop-6b66d",
+    "storage_bucket": "magshop-6b66d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1025645263211:android:943274b07cc32d4007b42e",
+        "android_client_info": {
+          "package_name": "com.example.android.magshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1025645263211-qjtjnt3uk8j7buvglg438732m02ektsd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.magshop",
+            "certificate_hash": "f8c808daf0a6ae93d71eb6f5c70528bd4757f828"
+          }
+        },
+        {
+          "client_id": "1025645263211-jr3m83kvflddnd0srjk0vu3t2ee2g7j6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDga6ou13LfXlWY39qWeg6h8OrzXJtXWAQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1025645263211-jr3m83kvflddnd0srjk0vu3t2ee2g7j6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

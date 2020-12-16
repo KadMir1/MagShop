@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sellers.SellerProductCategoryActivity">
+
+    <TextView
+        android:id="@+id/slogan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Выберите категорию"
+        android:textSize="26sp"
+        android:textStyle="bold|italic"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:id="@+id/first_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slogan"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <ImageView
+            android:id="@+id/telephone"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/telephone" />
+
+        <ImageView
+            android:id="@+id/bathroom"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/bathroom" />
+
+        <ImageView
+            android:id="@+id/armchair"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/armchair" />
+
+        <ImageView
+            android:id="@+id/cupboard"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/cupboard" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/second_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/first_line">
+
+        <ImageView
+            android:id="@+id/cot"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/cot"
+            android:layout_margin="10dp"/>
+
+        <ImageView
+            android:id="@+id/flowers"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/flowers"
+            android:layout_margin="10dp"/>
+
+        <ImageView
+            android:id="@+id/heater"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/heater"
+            android:layout_margin="10dp"/>
+
+        <ImageView
+            android:id="@+id/fan"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/fan"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/third_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/second_line">
+
+        <ImageView
+            android:id="@+id/books"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/books"
+            android:layout_margin="10dp"/>
+
+        <ImageView
+            android:id="@+id/cleaning"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/cleaning"
+            android:layout_margin="10dp"/>
+
+        <ImageView
+            android:id="@+id/clock"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/clock"
+            android:layout_margin="10dp"/>
+
+        <ImageView
+            android:id="@+id/cookingstove"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/cookingstove"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/four_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/third_line">
+
+        <ImageView
+            android:id="@+id/coffeemaker"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/coffeemaker"
+            android:layout_margin="10dp"/>
+
+        <ImageView
+            android:id="@+id/fireplace"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/fireplace"
+            android:layout_margin="10dp"/>
+
+        <ImageView
+            android:id="@+id/freezer"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/freezer"
+            android:layout_margin="10dp"/>
+
+        <ImageView
+            android:id="@+id/fridge"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/fridge"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+    
+
+
+</RelativeLayout>
